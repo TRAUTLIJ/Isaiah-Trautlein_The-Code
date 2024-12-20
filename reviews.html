@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Time - Reviews</title>
+    <link rel="stylesheet" href="reviews.css">
+</head>
+<body>
+    <header>
+        <img src="assets/Header.svg" alt="Header Background" class="header-svg">
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="assets/Logo.svg" alt="Tea Time Logo" class="logo">
+            </div>
+            <div class="cart-icon-container">
+                <img src="assets/Shopping cart.svg" alt="Shopping Cart" class="cart-icon">
+            </div>
+        </div>
+    </header>
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li><a href="reviews.html" class="active">Reviews</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="section-title">Leave a Review...</h2>
+        <section class="review-form">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="review">Review</label>
+                <textarea id="review" name="review" rows="4" placeholder="Write your review here..." required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="reviews-carousel">
+            <button class="prev">&#9664;</button>
+            <div class="carousel-track">
+                <div class="review-card">
+                    <h3>Andrew G.</h3>
+                    <p class="stars">★★★★★</p>
+                    <blockquote>"Fantastic Tea and Service!"</blockquote>
+                    <p>Tea Time offers amazing organic teas with great flavors and health benefits. Highly recommend!</p>
+                </div>
+                <div class="review-card">
+                    <h3>Sarah K.</h3>
+                    <p class="stars">★★★★★</p>
+                    <blockquote>"Best Tea in Town!"</blockquote>
+                    <p>Tea Time never disappoints! Great customer service!</p>
+                </div>
+                <div class="review-card">
+                    <h3>Amanda R.</h3>
+                    <p class="stars">★★★★★</p>
+                    <blockquote>"A Tea Lover’s Paradise!"</blockquote>
+                    <p>I’m hooked on Tea Time! Always fresh and full of flavor.</p>
+                </div>
+            </div>
+            <button class="next">&#9654;</button>
+        </section>
+
+        <footer>
+            <p>Phone Number: (715) 234 - 5678</p>
+            <p>Email: teatimeofficial@gmail.com</p>
+            <p>Location: 601 Herbal Ave, Eau Claire, WI, 54703</p>
+        </footer>
+    </main>
+</body>
+</html>
